@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es2015",
+        "lib": [
+            "dom",
+            "es2020",
+            "dom.iterable"
+        ],
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "esModuleInterop": false,
+        "importHelpers": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "strict": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
